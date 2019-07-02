@@ -13,14 +13,17 @@ for (let i = 0; i < 4; i++) {
 return arr;
 }
 
-
-var jLFarr = [];
-function johnLennonFacts(string) {
+function johnLennonFacts(string) 
+{
+    var i= 0;
+    var jLFarr= [];
     
-    for (let i = 0; i<string.length; i++){
-        jLFarr.push(string[i].toString() + "!!!");
-}
-return jLFarr;
+    while (i < string.length) 
+    {
+        jLFarr.push(string[i] + "!!!");
+        i++;
+    }
+    return jLFarr;
 }
 
 function iLoveTheBeatles(number){
